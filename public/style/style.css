@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/img2.jpg);
+    background-size: 100vw 100vh;
+}
+
+.time{
+    font-size: 10vw;
+}
+
+h1{
+    margin-bottom: 10vh;
+}
+
+button{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    height: 6vh;
+    width: 40vw;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
